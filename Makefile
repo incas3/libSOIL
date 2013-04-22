@@ -17,8 +17,8 @@ HFILES = SOIL.h image_DXT.h image_helper.h \
   stbi_DDS_aug.h stbi_DDS_aug_c.h stb_image_aug.h
 AFILE = libSOIL.a
 DYLIBFILE = libSOIL.dylib
-INCLUDEDIR = opt/local/include/SOIL
-LIBDIR = opt/local/lib
+INCLUDEDIR = usr/local/include/SOIL
+LIBDIR = usr/local/lib
 
 all: $(OFILES) lib
 
