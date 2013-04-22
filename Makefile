@@ -1,7 +1,7 @@
 MAKE = make
 CC = gcc
-INSTALL_FILE = install -p -o root -g admin -m 644
-INSTALL_DIR = install -o root -g admin -d
+INSTALL_FILE = install -p -m 644
+INSTALL_DIR = install -d
 LN = ln -s
 RM = rm -fv
 CFLAGS += -c -O2 -Wall
